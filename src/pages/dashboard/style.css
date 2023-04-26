@@ -1,0 +1,18 @@
+.dashBoardContent{
+    padding: 20px 60px;
+
+}
+.dashboardMainContent{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+}
+.dashboardSidebar{
+    width: 25%;
+}
+.dashboardUserContent{
+    background-color: #F4F4F4;
+    width: 100%;
+    border-radius: 16px;
+    padding: 25px 16px 16px;
+}

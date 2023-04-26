@@ -1,0 +1,26 @@
+.navBackground{
+    background-color: #fff;
+       border-bottom: 1px solid #e0e0e0;
+       /* margin-bottom: 20px; */
+}
+
+Nav{
+    font-family: 'Roboto', sans-serif;
+    color: #091e25;
+}
+
+.nav-link.active {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #091e25 !important;
+    position: relative;
+  }
+  
+  
+  .navbar-brand{
+    padding-right: 24px !important;
+  }
+  
+

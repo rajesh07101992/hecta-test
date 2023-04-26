@@ -1,0 +1,38 @@
+.label{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #A0A0A0;
+padding-right: 4px;
+margin-block-end: 0px;
+
+}
+select{
+    border: none;
+    outline: none;
+    width: 100%;
+    float: right;
+    font-style: normal;
+font-weight: 400;
+font-size: 12px !important;
+line-height: 14px;
+color: #091E25 !important;
+}
+
+#sortBy option {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #091E25;
+  }
+ #sortBY{
+    width: 38%;
+    max-width: 100%;
+ }
+ .sortBy{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }

@@ -1,0 +1,79 @@
+.cardRow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 20px;
+    row-gap: 28px; 
+    /* justify-content: space-between; */
+  }
+  
+  .flexItem{
+    flex: 1 0 calc(33.34% - 16px);
+    max-width: calc(34.34% - 16px); /* add this line */
+  }
+
+  .sectionTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .propCountText{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #091E25;
+margin-block-start: 12px;
+margin-block-end: 12px;
+  }
+  .propCountText span{
+    color:#A0A0A0;
+  }
+
+  .mainContent{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+  }
+  .LeftDetails{
+    max-width: 25%;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+  .rightDetails{
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    background-color: #fafafa;
+    /* max-width: 972px; */
+    border-left: 1px solid #e0e0e0;
+  }
+
+  .pagination{
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .pageButton{
+    background-color: #fafafa;
+    border: none;
+    margin: 0 4px;
+    padding:5px 8px;
+    color: #091E25;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto','sans-serif';
+  }
+
+  .pageButton.active{
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+ .prevArrow{
+  rotate: 90deg;
+  margin-right: 8px;
+ }
+ .nextArrow{
+  rotate: -90deg;
+  margin-left: 8px;
+ }

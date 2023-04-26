@@ -1,0 +1,25 @@
+.tabs{
+    background-color: #F4F4F4;
+border: 1px solid #E0E0E0;
+padding: 8px;
+}
+.tab-content{
+    background-color: #fff;
+    padding: 4px 4px 0 4px;
+}
+.tab-buttons{
+    background-color: #F4F4F4;  
+}
+.tab-buttons button{
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #707070;
+padding: 10px 16px;
+}
+.active{
+    background-color: #fff !important;
+    color: #091e25 !important;
+}
